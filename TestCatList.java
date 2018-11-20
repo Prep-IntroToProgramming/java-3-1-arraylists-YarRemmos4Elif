@@ -18,8 +18,8 @@ public class TestCatList{
         }
         x=0;
         for (Cat i: CatList){
-            System.out.println(CatList.get(x).getName() + " " + CatList.get(x));
-            System.out.println(CatList.get(x).getName() + " says " );
+            System.out.println(CatList.get(x).getName() + " weighs " + CatList.get(x).getWeight()+" pounds.");
+            System.out.print(CatList.get(x).getName() + " says " );
             CatList.get(x).meow();//getting the meow method from Cat class
             x=x+1;
         }
