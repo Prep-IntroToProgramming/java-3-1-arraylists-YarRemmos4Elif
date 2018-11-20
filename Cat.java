@@ -18,7 +18,7 @@ public class Cat {
     public Cat(String nName){
         name = nName;
     }
-    void meow(){
+    void meow(){/*this is the method that prints out meow*/
         System.out.println("Meow");
     }
 }
